@@ -20,7 +20,7 @@ date_subset$Global_active_power<-as.numeric(date_subset$Global_active_power)
 
 
 ## open device - default height and width
-png("Plot1.png")
+png("plot1.png")
 ## plot histogram of Global Active Power with labels
 hist(date_subset$Global_active_power, main="Global Active Power", xlab="Global Active Power (kilowatts)",col="red")
 ## close device
